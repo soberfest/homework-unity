@@ -21,7 +21,7 @@ public class Score : MonoBehaviour
 	void Update ()
 	{
 		// Set the score text.
-		GetComponent<Text>().text = "Счёт: " + score;
+		GetComponent<Text>().text = "Score: " + score;
 
 		// If the score has changed...
 		if(previousScore != score)
